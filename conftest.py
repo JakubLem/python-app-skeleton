@@ -1,5 +1,6 @@
 import pytest
 
+
 @pytest.fixture
 def some_obj():
     def result():
