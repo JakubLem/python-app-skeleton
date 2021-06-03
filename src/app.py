@@ -5,7 +5,7 @@ from . import config, console
 
 
 def app():
-    print(f'APPLICATION {Fore.BLUE}{config.Settings.PROJECT_NAME}{Style.RESET_ALL} has been started')
+    print(f'Application {Fore.BLUE}{config.Settings.PROJECT_NAME.upper()}{Style.RESET_ALL} has been started')
     print(read())
     write()
     console.log()
