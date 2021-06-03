@@ -1,7 +1,7 @@
+from colorama import Fore, Style
 from .readApp.read import read
 from .writeApp.write import write
 from . import config, console
-from colorama import Fore, Style
 
 
 def app():

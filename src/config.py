@@ -1,6 +1,3 @@
-from typing import Set
-
-
 class Settings:
     PROJECT_NAME = 'some name'
     PROJECT_ENCODING = 'utf-8'
